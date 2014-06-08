@@ -2,8 +2,8 @@
 ## Unit Test Script for makeCacheMatrix() and cacheSolve()
 ##
 ## Execute with:
-##    'source("cachematrix.R")
-##    'source("unittest.R", echo=TRUE, max.deparse.length=500)
+##    'source("cachematrix.R")'
+##    'source("unittest.R", echo=TRUE, max.deparse.length=500)'
 
 ##
 ## 1. Create a new cache matrix using the defaults.  Verify that the cahced
