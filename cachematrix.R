@@ -14,7 +14,7 @@
 ## Sample usage:
 ##
 ## t1 <- matrix(c(3,5,2,6,4,2,7,3,6),nrow=3,ncol=3)  ## Create a square invertible matrix
-## m <- makeCacheMatrix(t)                           ## Create a new cached matrix initialized to 't'
+## m <- makeCacheMatrix(t)                           ## Create a new cached matrix initialized to 't1'
 ## cacheSolve(m)                                     ## Compute the inverse and cache the result
 ## t2 <- matrix(c(5,2,3,1,6,3,8,8,4),nrow=3,ncol=3)  ## Create a second matrix
 ## m$setMatrix(t2)                                   ## Replace the original matrix with a new one
